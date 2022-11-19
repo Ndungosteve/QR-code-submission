@@ -1,0 +1,73 @@
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+
+body {font-family: 'Outfit', sans-serif;
+      background-color: hsl(212, 45%, 89%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 0 auto;
+      width: 100%;
+      padding-top: 100px;
+      font-size: 11px;
+}
+
+p {
+   color: hsl(220, 15%, 55%);
+   text-align: center;
+}
+
+h2 {
+   text-align: center;
+}
+
+.container {
+   width: 280px;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 2px solid white;
+   background-color: hsl(0, 0%, 100%);
+   border-radius: 20px;
+
+}
+
+img {
+   max-width: 90%;
+   height: auto;
+   padding: 12px;
+   border-radius: 20px;
+}
+
+
+a { color: hsl(228, 45%, 44%); }
